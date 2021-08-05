@@ -1,0 +1,119 @@
+.signin-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signin-header {
+    font-size: 5em;
+    line-height: .9;
+    margin-top: 10vh;
+}
+
+
+.company-name {
+    color:#006633;
+}
+
+.signin-option {
+    margin-top: 3.5em;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.showForm {
+    display: block !important;
+    transition: .5s;
+    opacity: 1;
+    transform: translateX(200px);
+}
+.moveForm {
+    transform: translateX(400px);
+    transition: .5s;
+    opacity: .1;
+}
+.hideForm {
+    display: none;
+}
+
+.form-btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+.form-btn-group button {
+    margin: 0 10px;
+}
+
+.signin-email-form {
+    display: none;
+    position: relative;
+    right: 200px;
+    margin-top: 3em;
+    padding: 2%;
+}
+
+.signin-phone-form {
+    display: none;
+    margin-top: 3em;
+    position: relative;
+    right: 200px;
+    padding: 2%;
+    transition: ease-in 1s;
+}
+
+.phone-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.supporting {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.keypad {
+    margin: 0 auto;
+}
+
+.keypad-number {
+    padding: 1em 1.5em;
+    margin: 1em;
+    border: 1px solid lightslategrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.keypad-number:hover {
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+}
+.clear-phone-input {
+    padding: 1em 1.5em;
+    margin: 1em;
+    border: 1px solid lightslategrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.clear-phone-input:hover {
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+}
+.backspace-phone-input {
+    padding: 1em 1.5em;
+    margin: 1em;
+    border: 1px solid lightslategrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.backspace-phone-input:hover {
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+}
